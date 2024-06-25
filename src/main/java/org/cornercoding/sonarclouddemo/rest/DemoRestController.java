@@ -12,6 +12,7 @@ public class DemoRestController {
 	public ResponseEntity<String> capitalize(@RequestParam("test") String text){
 		
 		String capital = text.toUpperCase();
+		
 		return ResponseEntity.ok(capital);
 		
 	}
